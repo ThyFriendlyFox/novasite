@@ -369,9 +369,9 @@
                     <label for="website-url">Website URL:</label>
                     <input type="url" id="website-url" placeholder="https://example.com" required>
                     <small>💡 <strong>Try these example sites:</strong> 
-                        <a href="#" onclick="setUrl('https://example.com')">example.com</a>, 
-                        <a href="#" onclick="setUrl('https://httpbin.org')">httpbin.org</a>, 
-                        <a href="#" onclick="setUrl('https://jsonplaceholder.typicode.com')">jsonplaceholder.typicode.com</a>
+                        <a href="#" onclick="setUrl('https://example.com'); return false;">example.com</a>, 
+                        <a href="#" onclick="setUrl('https://httpbin.org'); return false;">httpbin.org</a>, 
+                        <a href="#" onclick="setUrl('https://jsonplaceholder.typicode.com'); return false;">jsonplaceholder.typicode.com</a>
                     </small>
                 </div>
                 <button class="btn" onclick="extractWebsite()">
